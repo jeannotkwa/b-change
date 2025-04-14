@@ -3,7 +3,7 @@
 import { createContext, useState, useEffect, useContext } from "react"
 import { toast } from "react-toastify"
 import api from "../services/api"
-import jwtDecode from "jwt-decode"
+import { jwtDecode } from "jwt-decode"
 
 const AuthContext = createContext()
 

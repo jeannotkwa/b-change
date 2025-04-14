@@ -1673,4 +1673,13 @@ body {
   align-items: center;
   padding: 10px 15px;
   background-color: var(--accent-color);
-  color:\
+  color: var(--text-light);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.export-btn svg {
+  margin-right: 5px;
+}
